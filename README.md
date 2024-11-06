@@ -1,3 +1,3 @@
 # Cosmic 
 
-Very col gayming website
+Cosmic is a cery cool gaming website
