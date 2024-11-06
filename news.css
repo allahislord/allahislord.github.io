@@ -1,0 +1,75 @@
+body {
+  background-image: url("assets/IMG_4549.jpeg"); /* Ensure correct relative path to the image */
+  font-family: 'Nunito', sans-serif;
+  background-size: cover;          /* Ensure the background image covers the entire viewport */
+  background-position: center;     /* Center the background image */
+  background-repeat: no-repeat;    /* Prevent the image from repeating */
+  margin: 0;
+  padding: 0;
+}
+/* Navbar styling */
+.navbar {
+  background-color: rgba(146, 146, 146, 0.8);
+  color: white;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;  /* Align logo and nav links */
+  align-items: center;             /* Align items vertically */
+  padding: 15px 20px;
+}
+
+.logo img {
+  width: 175px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none; /* This removes the bullets */
+  display: flex;
+}
+
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* News section styling */
+.news-section {
+  padding: 20px;
+  color: white;
+}
+
+.news-section h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h2 {
+  font-size: 24px;
+}
+
+.news-item p {
+  font-size: 16px;
+}
