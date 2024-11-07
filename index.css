@@ -74,8 +74,8 @@ body {
 
 .game-image {
     border-radius: 20px;
-    height: 135px; /* Reduced height */
-    max-width: 135px; /* Reduced maximum width */
+    height: 85px; /* Reduced height */
+    max-width: 85px; /* Reduced maximum width */
     cursor: pointer;
     border: 5px solid white;      /* White border to eliminate any inline gaps */
     display: block;               /* Ensure no inline spacing occurs */
