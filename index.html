@@ -1,55 +1,59 @@
-<html>
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-78VWSJK8YH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic</title>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-78VWSJK8YH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-78VWSJK8YH', {
+      'anonymize_ip': true,  // Anonymizes user IP addresses
+      'cookie_flags': 'SameSite=None;Secure'  // Ensures secure cookie usage
+    });
+  </script>
 
-  gtag('config', 'G-78VWSJK8YH');
-</script>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>Cosmic</title>
-  </head>
-  <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo"><img class="logopng" src="assets/logo.png"></a>
-            <ul class="nav-links">
-                <li><a href="news.html">News</a></li>
-                <li><a href="assets/directories/credits.html">Credits</a></li>
-                <li><a href="assets/directories/contact.html">Contact</a></li>
-                <li><a href="https://forms.gle/9v2zuqnuy2xLe1VC8">Form</a></li>
-            </ul>
-        </div>
-    </nav>
-    <script>
-// Disable horizontal scrolling
-function disableHorizontalScroll() {
-    document.body.style.overflowX = 'hidden'; // Prevent horizontal scrolling
-    document.body.style.overflowY = 'auto';   // Allow vertical scrolling
-}
+  <!-- Font and CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 
-// Enable horizontal scrolling (if needed)
-function enableHorizontalScroll() {
-    document.body.style.overflowX = 'auto';   // Allow horizontal scrolling
-    document.body.style.overflowY = 'auto';   // Allow vertical scrolling
-}
+  <!-- Favicon Links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-// Example usage
-disableHorizontalScroll(); // Call this to disable horizontal scrolling
-// enableHorizontalScroll(); // Call this to enable horizontal scrolling again
-</script>
-    <!-----------------------------------------------------------|Game Add|------------------------------------->
+  <!-- JavaScript -->
+  <script src="index.js" defer></script>
+</head>
+
+<body onload="disableHorizontalScroll()">
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo"><img class="logopng" src="assets/logo.png" alt="Cosmic Logo"></a>
+      <ul class="nav-links">
+        <li><a href="news.html">News</a></li>
+        <li><a href="assets/directories/credits.html">Credits</a></li>
+        <li><a href="assets/directories/contact.html">Contact</a></li>
+        <li><a href="https://forms.gle/9v2zuqnuy2xLe1VC8">Form</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Disable Horizontal Scroll JavaScript -->
+  <script>
+    function disableHorizontalScroll() {
+      document.body.style.overflowX = 'hidden';
+    }
+  </script>
+
+  <!-- Game Links Section -->
   <div class="game-container">
-    <a href="./games/yohoho/index.html">
+<a href="./games/yohoho/index.html">
     <img src="./games/yohoho/IMG_4553.jpeg" alt="Yohoho" class="game-image">
 </a>
     <a href="./games/Breakoid/index.html">
@@ -198,5 +202,5 @@ disableHorizontalScroll(); // Call this to disable horizontal scrolling
     <img src="./games/learntoflyidle/IMG_4724.jpeg" alt="learntoflyidle" class="game-image">
 </a>
   </div>
-  </body>
+</body>
 </html>
