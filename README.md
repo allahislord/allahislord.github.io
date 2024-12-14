@@ -1,3 +1,3 @@
-# Cosmic 
+# Noify
 
-Cosmic is a cery cool gaming website
+Noify is a cery cool gaming website
